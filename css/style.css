@@ -1,0 +1,16 @@
+#home {
+  background: url(../images/landingPageBottom.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 50%vh;
+}
+body {
+  background-image: url(../images/mainbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experience {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
