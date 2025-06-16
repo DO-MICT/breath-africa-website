@@ -1,16 +1,46 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #4f4f4f;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #1266f1;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+main {
+  padding-top: 200px !important;
+}
+
+footer {
+  font-size: x-small;
+}
+
 #home {
-  background: url(../images/landingPageBottom.svg);
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 50%vh;
+  background: #374c4a;
+  background: linear-gradient(
+    180deg,
+    rgba(55, 76, 74, 1) 0%,
+    rgba(170, 210, 200, 1) 100%
+  );
 }
-body {
-  background-image: url(../images/mainbackground.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#experience {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: black;
-}
+
+/* #background-image {
+  background-image: url("images/mainbackground.png");
+  height: 100vh;
+  overflow: scroll;
+} */
